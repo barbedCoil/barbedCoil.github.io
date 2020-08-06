@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Barbed Coil, LLC. - Home</title>
+	<meta name="author" content="TR Hockamier" />
+	<meta name="description" content="Home page for Barbed Coil, LLC. Software Development." />
+	<meta name="Resource-type" content="Document" />
+
+	<link href="favicon.ico" rel="shortcut icon" type="image/ico" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	<style>
+		/* Style for our header texts
+		* --------------------------------------- */
+		h1{
+			font-size: 5em;
+			font-family: arial,helvetica;
+			color: #fff;
+			margin:0;
+			padding:0;
+		}
+		.intro p{
+			color: #fff;
+		}
+
+		/* Centered texts in each section
+		* --------------------------------------- */
+		.section{
+			text-align:center;
+		}
+
+		/* Fixed header and footer.
+		* --------------------------------------- */
+		#header, #footer{
+			position:fixed;
+			height: 50px;
+			display:block;
+			width: 100%;
+			/*background: #333;*/
+			background: #fff;
+			z-index:9;
+			text-align:center;
+			color: #f2f2f2;
+			padding: 20px 0 0 0;
+		}
+
+		#header{
+			top:0px;
+		}
+		#footer{
+			bottom:0px;
+		}
+
+
+		/* Bottom menu
+		* --------------------------------------- */
+		#infoMenu {
+			bottom: 80px;
+		}
+		#infoMenu li a {
+			color: #fff;
+			z-index: 999;
+		}
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script type="text/javascript" src="libs/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="libs/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="libs/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="libs/jquery.lettering.js"></script>
+	<script type="text/javascript" src="libs/circletype.min.js"></script>
+	<script type="text/javascript" src="libs/jquery.fullPage.min.js"></script>
+
+	<script type="text/javascript" src="js/home.js"></script>
+
+
+	<!-- INIT paging script -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['abstract', 'technology', 'acumen'],
+				sectionsColor: ['#FFFFFF', '#FFFFFF', '#FFFFFF'],
+				css3: true,
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Conspectus', 'Technology', 'Acumen'],
+				scrollingSpeed: 900
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+	<!-- H E A D E R -->
+	<div id="header">
+	    <div id="header_text">
+				Barbed Coil, LLC.
+			</div>
+    	<div id="sub-header_text">
+      		Software Design & Development
+      	</div>
+  	</div>
+
+	<!-- F O O T E R -->
+	<div id="footer">
+		<span style="float: left; margin-left: 25px !important;">
+			<img src="images/thorn-crown3.png" style="height: 64px; width: 64px; float: left; display: inline; margin-top: -24px;"/>
+			&copy; 2015 by Barbed Coil, LLC. <a class="contact" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#98;&#97;&#114;&#98;&#101;&#100;&#99;&#111;&#105;&#108;&#46;&#99;&#111;&#109;">Contact</a>
+		</span>
+		<span style="float: right; color: #EDBE69; font-size: .8em; margin-right: 25px !important;">
+			Scroll or Page down
+		</span>
+	</div>
+
+
+	<!-- C O N T E N T -->
+	<div id="fullpage">
+
+		<!-- I N F O R M A T I O N -->
+		<div class="section sectionA" id="section0">
+			<div class="intro">
+				<h1 class="sub-header">Conspectus</h1>
+			</div>
+
+			<div class="center-content">
+				<div class="align_to_left">
+					<h2 class="subHeader">History</h2>
+					<p class="add_indent">Welcome to Barbed Coil, a professional software consulting concern. We have over 24 years of unique
+						experiences in a diverse range of development and business domain opportunities:</p>
+					<ul class="alist align_justify add_indent">
+						<li class="aListItem" style="color: #2E688C !important;">Designing and building consumer / commercial lending systems.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Wafer fab production testing software and Six Sigma process engineering.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Co-Creating financial planning and modeling software for retirement.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Building software to support the education of our students.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Developing traffic monitoring solutions.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Creating custom application and accounting solutions for the restaurant industry.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Rebuilding engineering processes and software for the meetings / hotel bookings sectors.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Writing custom software for the legal field.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Building Mobile Web Apps for group communication and connections.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Writing Windows Tablet applications for the healthcare industry.</li>
+					</ul>
+
+					<!--<hr class="divider" />-->
+					<h2 class="subHeader">Digest</h2>
+					<p class="add_indent">At Barbed Coil, we have an affinity towards solving complex problems using software as means for creating solutions. </p>
+					<p class="add_indent">Providing solutions through software creation, tools and mentoring allows Barbed Coil to make a real world difference.</p>
+
+					<!--<hr class="divider" />-->
+					<h2 class="subHeader">Profiles</h2>
+					<div class="add_indent">
+						<table style="width: 100%">
+							<tr>
+								<td style="width: 33.33%;">
+									<a class="info_link" href="http://careers.stackoverflow.com/tcodex" target="_blank">Stackoverflow: Profile</a>
+								</td>
+								<td style="width: 33.33%;">
+									<a class="info_link" href="https://www.linkedin.com/in/trhockamier" target="_blank">LinkedIn: Profile</a>
+								</td>
+								<td style="width: 33.33%;">
+									<a class="info_link" href="http://codertools.wordpress.com/" target="_blank">Blog: CoderTools</a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- T E C H N O L O G Y -->
+		<div class="section sectionA" id="section1">
+			<div class="intro">
+				<h1 class="sub-header">Technology</h1>
+			</div>
+			<div class="center-content">
+				<div class="align_to_left">
+					<h2 class="subHeader">Methodology - Agile</h2>
+					<p class="add_indent">We embrace and adhere to the Agile development methodology.  Agile in a nutshell, is:</p>
+					<ul class="alist align_justify add_indent">
+						<li class="aListItem" style="color: #2E688C !important;">Work with dedicated user from the client to determine requirements (stories).</li>
+						<li class="aListItem" style="color: #2E688C !important;">Define what we know and what we know we don't know (spiking).</li>
+						<li class="aListItem" style="color: #2E688C !important;">Kick off project with pre-determined stories for the next period of time (sprint).</li>
+					</ul>
+					<p class="add_indent">And, what's the big deal?  The big deal is that as developers, we are constantly building
+						software in an interative fashion (lather, rinse, repeat) and it works, very well.
+						Check out this: &nbsp; <a class="info_link" href="http://www.scrumhub.com/scrum-guide" target="_blank">Scrum Guide</a>
+					</p>
+
+					<div class="ui divider"></div>
+					<h2 class="subHeader">Skill Stacks</h2>
+					<p class="add_indent">Skills are funny things.  The more development tools, languages and methods we are exposed to the more they seem the same and in many respects, allowing for a shorter learning curve.</p>
+					<p class="techStack add_indent">.NET Synopsis</p>
+					<table class="add_indent-more">
+						<tr>
+							<td class="stackData">C# &amp; VB</td>
+							<td class="stackDesc">Main .NET programming languages</td>
+						</tr>
+						<tr>
+							<td class="stackData">ASP.NET & Web API</td>
+							<td class="stackDesc">Web Application & API Frameworks for .NET</td>
+						</tr>
+						<tr>
+							<td class="stackData">SQL Server</td>
+							<td class="stackDesc">Windows SQL Database Server</td>
+						</tr>
+						<tr>
+							<td class="stackData">DevExpress &amp; Telerik</td>
+							<td class="stackDesc">Toolkits for elegant desktop &amp; web user interfaces</td>
+						</tr>
+					</table>
+					<p class="techStack add_indent">Open Source Synopsis</p>
+					<table class="add_indent-more">
+						<tr>
+							<td class="stackData"> Sinatra (Ruby)</td>
+							<td class="stackDesc">Powerful web framework using Ruby</td>
+						</tr>
+						<tr>
+							<td class="stackData"> Python</td>
+							<td class="stackDesc">Powerful scripting language</td>
+						</tr>
+						<tr>
+							<td class="stackData"> Javscript/jQuery</td>
+							<td class="stackDesc">The language of the web and what is still the best toolkit</td>
+						</tr>
+						<tr>
+							<td class="stackData"> MySQL</td>
+							<td class="stackDesc">Cross Platform SQL Database Server</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<!-- A C U M E N -->
+		<div class="section sectionA" id="section2">
+			<div class="intro">
+				<h1 class="sub-header">Acumen</h1>
+			</div>
+			<div class="center-content">
+				<div class="align_to_left">
+					<h2 class="subHeader">Abstract</h2>
+					<p class="add_indent">Our core business belief:  "Technology is great but if you want to succeed then you need to embrace the human side as well."</p>
+					<p class="add_indent">
+						Without the ability to bridge the gap between technology and business a developer can go down the path to being a:
+						&nbsp; <a class="info_link" href="http://whatis.techtarget.com/definition/propeller-head-or-propellor-head-prop-head-prophead" target="_blank">Propeller Head!</a> The following key attributes are required to succeed:
+					</p>
+					<ul class="alist align_justify add_indent">
+						<li class="aListItem" style="color: #2E688C !important;">Fluently learn the business of the current client</li>
+						<li class="aListItem" style="color: #2E688C !important;">Utilize our 'Skill Stacks' to provide our clients with the best solutions possible.</li>
+					</ul>
+
+					<div class="ui divider"></div>
+					<h2 class="subHeader">Domains</h2>
+					<ul class="alist align_justify add_indent">
+						<li class="aListItem" style="color: #2E688C !important;">Case Management - Legal workflows.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Lending - Consumer/Commercial lending.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Finance - Financial planning and what-if analysis.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Meeting Management - Hotel requests and bookings, property search.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Education - Calculation and disbursement of resources for education.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Traffic Safety - Tracking and monitoring of vehicle traffic violations.</li>
+						<li class="aListItem" style="color: #2E688C !important;">Accounting - Accounting processes: A/R, A/P, etc</li>
+					</ul>
+
+					<div class="ui divider"></div>
+					<h2 class="subHeader">Specialities</h2>
+					<ul class="alist align_justify add_indent">
+						<li class="aListItem" style="color: #2E688C !important;">Client interaction</li>
+						<li class="aListItem" style="color: #2E688C !important;">Attention to detail</li>
+						<li class="aListItem" style="color: #2E688C !important;">Solving problems</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
+
+

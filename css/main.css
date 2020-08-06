@@ -1,0 +1,246 @@
+body {
+	background-color: #383838;
+	font-family: "Helvetica", "Arial", sans-serif;;
+}
+
+@font-face {
+	font-family: 'england_hand_dbregular';
+	src: url('../fonts/england-webfont.eot');
+	src: url('../fonts/england-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/england-webfont.woff') format('woff'),
+	url('../fonts/england-webfont.ttf') format('truetype'),
+	url('../fonts/england-webfont.svg#england_hand_dbregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'chunkfive_regular';
+	src: url('../fonts/Chunkfive-webfont.eot');
+	src: url('../fonts/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Chunkfive-webfont.woff') format('woff'),
+	url('../fonts/Chunkfive-webfont.ttf') format('truetype'),
+	url('../fonts/Chunkfive-webfont.svg#chunkfive_regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+ul {
+	/*margin: 0.15em 0;*/
+	/*padding: 0 1em;*/
+	list-style: none;
+}
+li.aListItem:before {
+	content: "";
+	border-color: transparent #111;
+	border-style: solid;
+	border-width: 0.35em 0 0.35em 0.45em;
+	display: block;
+	height: 0;
+	width: 0;
+	left: -1em;
+	top: 0.9em;
+	position: relative;
+}
+
+.center-content {
+	width:1000px;
+	margin: 0 auto;
+}
+
+.center_page {
+	margin: auto;
+	width: 100%;
+}
+
+.align_to_left {
+	text-align: left;
+}
+
+.align_justify {
+	text-align: justify;
+}
+
+.link_container {
+	width:60%;
+}
+
+.link_item {
+	width:33.33333333%;
+	float:left;
+}
+
+a.info_link {
+	color: #2E688C !important;
+	font-weight: 900;
+	font-variant: titling-caps;
+	text-decoration: none;
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+
+a.info_link:hover {
+	font-weight: 900;
+	font-variant: titling-caps;
+	/*border-top: 1px solid #842013;*/
+	border-bottom: 1px solid #842013;
+}
+
+a.tech_link {
+	color: #ffffff !important;
+	font-weight: 900;
+	font-variant: titling-caps;
+	text-decoration: none;
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+
+a.tech_link:hover {
+	font-weight: 900;
+	font-variant: titling-caps;
+	/*border-top: 1px solid #ffffff;*/
+	border-bottom: 1px solid #ffffff;
+}
+
+
+.add_indent {
+	margin-left: 55px;
+}
+
+.add_indent-more {
+	margin-left: 65px;
+}
+
+div#main {
+	position: absolute;
+	overflow: auto;
+	bottom: 15px;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	background-color: #842013;
+}
+
+div.sectionA {
+	background-image: url("../images/ravenna.png");
+}
+
+div#header   {
+	position: absolute;
+	overflow: auto;
+	height: 115px;
+	background-image: url("../images/wild_oliva.png");
+}
+
+div#header_text {
+	font-family: 'chunkfive_regular', cursive;
+	font-size: 2.5em;
+	font-weight: normal;
+	/*color: #EDBE69;*/
+	color: #333;
+}
+
+div#sub-header_text {
+	font-family: 'england_hand_dbregular', cursive;
+	font-size: 2.5em;
+	font-weight: normal;
+	/*color: #EDBE69;*/
+	color: #EDBE69;
+	text-align: center;
+}
+
+div#footer   {
+	height: 35px;
+	background-image: url("../images/wild_oliva.png");
+}
+
+.sub-header {
+	font-family: 'chunkfive_regular', cursive;
+	font-size: 2.1em;
+	font-weight: normal;
+	color: #842013;
+}
+
+div#mainMenu {
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+div#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 300px;
+	margin-top: -150px; /* 1/2 of your element height*/
+	margin-left: -200px; /* 1/2 of your element width */
+}
+
+h2#header1, h2#header2, h2#header3 {
+	font-family: 'chunkfive_regular', cursive;
+	font-weight: normal;
+	color: #FAF2E1;
+}
+
+.subHeader {
+	font-weight: bolder;
+	color: #842013;
+}
+
+.subHeader2 {
+	font-weight: bolder;
+	color: #ffffff;
+}
+
+.techStack {
+	font-variant: all-small-caps;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-decoration: underline;
+	color: #EDBE69;
+	/*padding-bottom: 0;*/
+	/*margin-bottom: 0;*/
+}
+
+hr.divider {
+	width: 50%;
+    height: 1px;
+    border-style: solid;
+    border-color: rgba(124, 124, 124, 0.48);
+    border-width: 1px 0 0 0;
+}
+
+div#lowerSection {
+	position: absolute;
+	overflow: auto;
+	top: 245px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	background-color: #383838;
+	background-image: url("../images/wild_oliva.png");
+}
+
+td.stackData {
+	font-weight: bold;
+	padding-right: 6px;
+	padding-bottom: 1px;
+	width: 200px;
+	color: #2E688C;
+}
+
+td.stackDesc {
+	color: #2E688C;
+}
+
+
+.size_view {
+	height: 82vh;
+}
+
+.contact {
+	color: #EDBE69;
+	font-size: .8em;
+	margin-left: 25px
+}
